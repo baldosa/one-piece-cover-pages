@@ -1,5 +1,7 @@
-imgs/
+images/
 images.json
+client_id.json
+token.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
