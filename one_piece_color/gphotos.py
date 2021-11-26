@@ -39,7 +39,7 @@ def auth():
             token.write(creds.to_json())
 
     session = AuthorizedSession(creds)
-    return session, creds
+    return session
 
 
 def upload_photos(session, photo_file_name, album_id):
